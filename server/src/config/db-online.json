@@ -1,0 +1,11 @@
+{
+  "database": "community",
+  "username": "root",
+  "password": "83344258",
+  "host": "212.64.82.120",
+  "port": "3306",
+  "dialect": "mysql",
+  "max": 10,
+  "min": 0,
+  "idle": 10000
+}

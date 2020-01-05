@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0 !important;
+  font-size: @fz-14
+}
+
+@fz-12: 12px;
+@fz-13: 13px;
+@fz-14: 14px;
+@fz-16: 16px;
+@fz-18: 18px;
+@fz-24: 24px;
+@fz-36: 36px;
+@fz-48: 48px;
+
+@blue: #409EFF;
+@green: #67C23A;
+@orange: #E6A23C;
+@red: #F56C6C;
+@grey: #909399;
+@white: #FFFFFF;
+@pink: #ffb5fb;
+
+// 标题字色
+@tx-t: #303133;
+// 正文字色
+@tx-b: #606266;
+// 次要文字
+@tx-s: #909399;
+
+// 边框色 深->浅
+@br-1: #DCDFE6;
+@br-2: #E4E7ED;
+@br-3: #EBEEF5;
+@br-4: #F2F6FC;
+
+// 红字
+.hint { color: @red !important }
+
+// 聊天室头
+.el-card__header { padding: 0; height: 60px; background: #CBFE52; border-bottom: none;
+  span { font-size: 20px; line-height: 60px; font-weight: bold; margin-left: 15px }
+}
+
+// 聊天室体
+.el-card__body { height: 500px; padding: 0 }
+
+// form表单内框间隔30px
+.el-form-item { margin-bottom: 30px; text-align: right }
+
+// 校验提示
+.el-form-item__error { right: 0 }
+
+// 重置&&提交
+.pub-btn { margin-top: 20px; text-align: right;
+  .el-button { width: 120px }
+}
+
+ul { list-style-type: none }
+
+// 顶部下拉宽度
+.el-dropdown-menu { width: 100px }
+
+// 发布文章富文本框高度
+#addNews {
+  .w-e-text-container { height: 500px !important; }
+}
