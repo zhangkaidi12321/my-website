@@ -11,7 +11,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.13.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "socket.io": "^2.1.1",
     "vue": "^2.5.16",
     "vue-lazyload": "^1.2.6",
